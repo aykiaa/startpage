@@ -19,6 +19,3 @@ This project is an **edit of the original startpage by [Fazzi](https://gitlab.co
 ### Preview:
 ![img](preview.gif)
 
----
-
-This makes it clear that your version is based on Fazzi's original work while retaining your customizations.
