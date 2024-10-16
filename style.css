@@ -110,6 +110,12 @@ body {
   font-weight: 600;
 }
 
+.header::before {
+  content: "🎓"; /* Emoji adicionado */
+  color: inherit; /* Garante que o emoji siga a cor do texto */
+  margin-right: 5px; /* Espaço entre o emoji e o texto */
+}
+
 #links {
   display: grid;
   grid-row-gap: 0.5em;
