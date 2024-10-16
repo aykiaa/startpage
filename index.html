@@ -7,7 +7,16 @@
     <link href="style.css" rel="stylesheet" /> <!-- Verifique o caminho do CSS -->
   </head>
 
+  
+  
   <body class="fazzi">
+    <div class="box">
+      <form name="search" action="https://www.google.com/search" method="get">
+        <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+      </form>
+      <i class="fas fa-search"></i>
+    </div> 
+    
     <div id="image">
       <img id="carouselImage" src="cover1.webp" /> <!-- Verifique o caminho da imagem -->
     </div>
@@ -16,7 +25,7 @@
       <div id="date"></div>
       <div id="links">
         <div class="urls">
-          <div class="header">~/general </div>
+          <div class="header">~/general</div>
           <ul>
             <li><a href="https://google.com">Google</a></li>
             <li><a href="https://youtube.com">YouTube</a></li>
