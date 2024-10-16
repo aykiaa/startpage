@@ -8,6 +8,11 @@
 }
 
 :root {
+  --background-color: #1e1e1e; /* Cor de fundo */
+  --text-color: #ffffff; /* Cor do texto */
+  --accent-color: #4ba9d9; /* Cor dos títulos e links */
+  --accent-color-2: #f5498b; /* Cor do saudação 'お帰りなさい!' */
+  --hover-color: #f5a623; /* Cor ao passar o mouse */
   color-scheme: dark;
 }
 
@@ -34,9 +39,7 @@ html.loaded {
 body {
   display: flex;
   color: var(--text-color);
-  font-family:
-    SpaceMono Nerd Font,
-    monospace;
+  font-family: SpaceMono Nerd Font, monospace;
   justify-content: center;
   align-items: center;
 }
@@ -135,5 +138,5 @@ a:hover {
 }
 
 #image {
-	padding-right: 1em;
+  padding-right: 1em;
 }
